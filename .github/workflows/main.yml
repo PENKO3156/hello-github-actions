@@ -9,4 +9,4 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-          My_Second_Name: "Yudai"
+          first_NAME: "Yudai"
