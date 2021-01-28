@@ -16,7 +16,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-          first_naem: "yumi"
-
+          first_naem: ${{ github.event.inputs.aaa }}
     
       
