@@ -1,5 +1,12 @@
 name: main_2
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      AAA:
+        description: 'input AAA'
+        required: true
+        default: 1
+        
 jobs:
   build:
     name: Hello world action
@@ -10,3 +17,6 @@ jobs:
         with:
           MY_NAME: "Mona"
           first_naem: "yumi"
+
+    
+      
