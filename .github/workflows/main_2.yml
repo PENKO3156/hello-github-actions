@@ -2,7 +2,7 @@ name: main_2
 on:
   workflow_dispatch:
     inputs:
-      AAA:
+      aaa:
         description: 'input AAA'
         required: true
         default: 1
